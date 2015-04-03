@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "config/initializers/devise.rb",
-    "devise-approvable.gemspec",
+    "device-approvable.gemspec",
     "lib/approvable.rb",
     "lib/approvable_mailer.rb",
     "test/approvable_test.rb",

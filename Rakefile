@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "device-approvable"
-  gem.homepage = "http://github.com/eggie5/device-approvable"
+  gem.name = "devise-approvable"
+  gem.homepage = "http://github.com/eggie5/devise-approvable"
   gem.license = "MIT"
   gem.summary = %Q{Oh so perfect}
   gem.description = %Q{adds feature to devise}
@@ -45,7 +45,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "device-approvable #{version}"
+  rdoc.title = "devise-approvable #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
