@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README",
     "Rakefile",
     "config/initializers/devise.rb",
+    "device-approvable.gemspec",
     "lib/approvable.rb",
     "lib/approvable_mailer.rb",
     "test/approvable_test.rb",
