@@ -172,3 +172,5 @@ module Devise
     end
   end
 end
+
+Devise.add_module :approvable, :model => 'approvable'
