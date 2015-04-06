@@ -14,7 +14,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "devise-approvable"
+  gem.name = "devise_approvable"
   gem.homepage = "http://github.com/eggie5/devise-approvable"
   gem.license = "MIT"
   gem.summary = %Q{Oh so perfect}
