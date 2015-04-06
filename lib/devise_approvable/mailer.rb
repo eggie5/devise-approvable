@@ -1,6 +1,6 @@
 require 'devise/version'
 
-module DeviseInvitable
+module DeviseApprovable
   module Mailer
 
     def approval_instructions(record, token, opts={})
