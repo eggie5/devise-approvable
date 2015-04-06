@@ -6,7 +6,7 @@ end
 
 require 'devise'
 require 'devise_approvable/routes'
-# require 'devise_approvable/rails'
+require 'devise_approvable/rails'
 
 module Devise
   mattr_accessor :admin_email
