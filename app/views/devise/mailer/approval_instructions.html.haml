@@ -1,0 +1,8 @@
+%p 
+  Someone has registered for a membership: 
+  =@email
+
+%p You can approve through the link below:
+
+%p
+  = link_to 'Approve this account', approval_url(@resource, approval_token: @token)
