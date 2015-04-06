@@ -1,4 +1,4 @@
-class Developers::Devise::ApprovalsController < DeviseController
+class Devise::ApprovalsController < DeviseController
 
   # GET /resource/confirmation/new
   def new
