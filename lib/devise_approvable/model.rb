@@ -50,7 +50,7 @@ module Devise
           generate_approval_token!
         end
         
-        opts = { to: "dev-approvals@curbcall.com" }
+        opts = { to: self.class.admin_email }
         send_devise_notification(:approval_instructions, @raw_approval_token, opts)
       end
       
