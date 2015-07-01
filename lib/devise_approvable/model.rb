@@ -86,7 +86,7 @@ module Devise
           approvable
         end
               
-        Devise::Models.config(self, :approver_class)
+        Devise::Models.config(self, :approver_class, :admin_email)
       end
     end
   end
